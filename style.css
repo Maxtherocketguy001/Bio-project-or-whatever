@@ -1,58 +1,62 @@
-body {
-	border-radius: 10px;
-	font-family: Tahoma;
-	text-align: center;
-	background-color: #ffffcc;
-	color: #abcdef;
-}
-
-button {
-	border-radius: 10px;
-	font-family: Comic Sans Ms;
-	padding: 10px;
-	margin: 10px;
-	background-color: #AADDAD;
-	color: white;
-	border: none;
-}
-input {
-	border-radius: 10px;
-	font-family: Comic Sans Ms;
-	padding: 10px;
-	margin: 10px;
-	background-color: #AADDAD;
-	color: white;
-	border: none;
-}
-
-textarea {
-	border-radius: 10px;
-	font-family: Comic Sans Ms;
-	padding: 10px;
-	margin: 10px;
-	background-color: #AADDAD;
-	color: white;
-	border: none;
-}
-
-.div {
-	text-align: center;
-	border-radius: 10px;
-	float: auto;
-	width: 300px;
-	border: 15px solid #AADDAD;
-	color: #CFC
-	background-image: url("mrdmac.png");
-}
-.bottom
+body 
 {
-	border: 15px solid #cfc;
-	color: #11bbff;
-	background-color: #cfc;
-	position: fixed;
-	bottom: 0;
-    width: 100%;
+	text-align: center;
+border-radius: 5rem;
+  font-family: 'Comic Sans MS';
+  background-color: #aaddad;
 }
-.{
-	text-decoration: line-through;
+button
+{
+	text-align: center;
+	border-radius: 5rem;
+  margin-top: .6rem;
+  padding: .5rem 1rem;
+  cursor: pointer;
+  border: none;
+  background-color: #aad;
+  color: #fff;
+}
+.top
+{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+#output
+{
+	border-radius: 5rem;
+  padding: 10px;
+  margin: 10px;
+  background-color: #ffe8f2;
+  color: #000;
+  border: solid .5px #ffbffc;
+}
+div
+{
+	text-align: center;
+	border-radius: 5rem;
+  padding: 10px;
+  background-color: #ffe8f2;
+  color: #000;
+  border: solid .5px #ffbffc;
+}
+.bigDiv 
+{
+	text-align: center;
+	border-radius: 5rem;
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+  cursor: pointer;
+  border-radius:none;
+  background: #abcdef;
+  box-shadow: 0 0 10px rgb(0, 0, 0, .1);
+  color: #9c225d;
+}
+#output
+{
+	text-align: center;
+	border-radius: 5rem;
+  margin-top: 1.4rem;
+	overflow-x: auto;
 }

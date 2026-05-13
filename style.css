@@ -1,0 +1,58 @@
+body {
+	border-radius: 10px;
+	font-family: Tahoma;
+	text-align: center;
+	background-color: #ffffcc;
+	color: #abcdef;
+}
+
+button {
+	border-radius: 10px;
+	font-family: Comic Sans Ms;
+	padding: 10px;
+	margin: 10px;
+	background-color: #AADDAD;
+	color: white;
+	border: none;
+}
+input {
+	border-radius: 10px;
+	font-family: Comic Sans Ms;
+	padding: 10px;
+	margin: 10px;
+	background-color: #AADDAD;
+	color: white;
+	border: none;
+}
+
+textarea {
+	border-radius: 10px;
+	font-family: Comic Sans Ms;
+	padding: 10px;
+	margin: 10px;
+	background-color: #AADDAD;
+	color: white;
+	border: none;
+}
+
+.div {
+	text-align: center;
+	border-radius: 10px;
+	float: auto;
+	width: 300px;
+	border: 15px solid #AADDAD;
+	color: #CFC
+	background-image: url("mrdmac.png");
+}
+.bottom
+{
+	border: 15px solid #cfc;
+	color: #11bbff;
+	background-color: #cfc;
+	position: fixed;
+	bottom: 0;
+    width: 100%;
+}
+.{
+	text-decoration: line-through;
+}

@@ -22,22 +22,13 @@ button
   top: 0;
   z-index: 1000;
 }
-#output
-{
-	border-radius: 5rem;
-  padding: 10px;
-  margin: 10px;
-  background-color: #ffe8f2;
-  color: #000;
-  border: solid .5px #ffbffc;
-}
 div
 {
 	  padding: 10px;
   margin: 10px;
 	font-family: "Comic Sans MS";
 	border-radius: 5rem;
-  background-color: #ffe8f2;
+  background-color: #abcdef;
   color: #000;
   border: solid .5px #ffbffc;
 }
